@@ -7,4 +7,4 @@ FROM Customer
 GROUP BY Customer.CustomerID,
   Customer.FirstName,
   Customer.LastName
-ORDER BY NUM_ORDERS DESC
+ORDER BY NUM_ORDERS ASC
